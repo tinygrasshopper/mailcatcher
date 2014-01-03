@@ -53,7 +53,7 @@ module MailCatcher extend self
     :http_port => '1080',
     :verbose => false,
     :daemon => !windows?,
-    :growl => growlnotify?,
+    :growl => false,
     :browse => false,
     :quit => true,
   }
